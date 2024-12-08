@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome to your Dashboard, <%= user.email %>!</h1>
+    <nav>
+      <ul>
+        <li><a href="/users/profile">Profile</a></li>
+        <li><a href="/users/settings">Settings</a></li>
+        <li><a href="/signout">Sign Out</a></li>
+      </ul>
+    </nav>
+    <p>This is your personal dashboard where you can manage your account and settings.</p>
+  </body>
+</html>
